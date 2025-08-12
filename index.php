@@ -106,7 +106,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $_SESSION['show_alert'] = true;
 
     // Redirect to avoid resubmission
-    header("Location: /loginform/index.php");
+    header("Location: /loginform/dashboard.php");
     exit;
 }
 
